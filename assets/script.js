@@ -63,7 +63,7 @@ const myquestion = [
     correctanswer : "answer-a"
 },
 ];
-var seconds = 3
+var seconds = 30
 var i = 0
 document.getElementById("startbutton").addEventListener("click",renderquestion);
 document.getElementById("startbutton").addEventListener("click",incrementSeconds);
@@ -116,6 +116,7 @@ function checkanswer(event){
     nextquestion();
     console.log("u are wrong")
     div.innerHTML = ' u are wrong'
+    seconds = seconds - 5
     }
     
   
@@ -124,7 +125,7 @@ function checkanswer(event){
 var el = document.getElementById('counter');
 
 function incrementSeconds(evt) {
-    evt.preventDefault()
+    
     seconds -= 1;
     el.textContent = seconds;
     if( seconds === 0)
