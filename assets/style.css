@@ -1,0 +1,65 @@
+
+body{
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   background-color: black;
+}
+.startbutton{
+    display:
+    
+}
+.scoreboard{
+    display: none;
+}
+.iswrong{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+   display: flex;
+   left: 20px;
+   position: absolute;
+   padding: 20px;
+   border-radius: 10px;
+   top: 20px;
+border-width: 50px;
+border-color: blue;
+border:solid;
+color: blue;
+text-align: center;
+font-size: 40px;
+
+}  
+
+input{
+    background-color: aliceblue;
+}
+.answerbuttons{
+    width: 240px;
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.biggercontainer{
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+vertical-align: middle;
+
+}
+  
+
+.container{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+   position: relative;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
